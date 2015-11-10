@@ -1,0 +1,35 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    chronic_duration (0.10.6)
+      numerizer (~> 0.1.1)
+    daemons (1.2.3)
+    eventmachine (1.0.0.beta.4)
+    json_pure (1.8.3)
+    nats (0.4.26)
+      daemons (>= 1.1.5)
+      eventmachine (>= 0.12.10)
+      json_pure (>= 1.7.3)
+      thin (>= 1.4.1)
+    numerizer (0.1.1)
+    rack (1.6.4)
+    rufus-scheduler (2.0.24)
+      tzinfo (>= 0.3.22)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chronic
+  chronic_duration
+  eventmachine
+  nats
+  rufus-scheduler (~> 2.0.0)
